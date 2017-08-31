@@ -1,0 +1,111 @@
+
+
+body {
+  width: 100%;
+  font-size: 35px;
+  font-family: ubuntu;
+  background-image: url("i15/bgow.jpg");
+  background-repeat: repeat;
+}
+
+.header, .footer {
+  padding: 1em;
+  color: #f1e8bc;
+  background-color: black;
+  clear: left;
+  text-align: center;
+  margin: 1em;
+}
+
+.logo {
+  float: left;
+  position: fixed;
+  margin-top: 5%;
+  margin-left: 5%;
+  border-style: double;
+  border-color: black;
+  border-width: 8px;
+  border-radius: 35px;
+  clear: both;
+}
+
+.radio form {
+    float: left;
+    max-width: 160px;
+    margin-left: 10em;
+    margin-bottom: 1em;
+    padding: 1em;
+    font-size: 38px;
+    background-color: #f1e8bc;
+    border: 1px solid black;
+    opacity: 0.6;
+    filter: alpha(opacity=60);
+}
+
+.radio img {
+    float: left;
+    padding: 10px;
+    margin: 15px;
+}
+
+.radiotest {
+  background-color: #f1e8bc;
+  text-align: right;
+  padding-right: 3em;
+}
+.footer img {
+  display: inline;
+  padding: 5px;
+}
+.lorem {
+  background-image: url("i15/bgow.jpg");
+  background-repeat:repeat;
+  margin: 10px;
+  padding: 30px;
+}
+.txtbox {
+  background-color: #ffffff;
+  border: 1px solid black;
+  opacity: 0.6;
+  filter: alpha(opacity=60);
+  padding: 1em;
+  font-weight: bold;
+}
+
+.header, .footer {
+    padding: 1em;
+    color: white;
+    background-color: black;
+    clear: left;
+    text-align: center;
+  }
+
+  .list {
+    float: left;
+    max-width: 160px;
+    margin: 0;
+    padding: 1em;
+  }
+
+  .list ul {
+    list-style-type: none;
+    padding: 0;
+  }
+  .list ul a {
+    text-decoration: none;
+  }
+
+  .list li {
+    background-color: black;
+    color: red;
+    padding-left: 1em;
+    font-size: 40px;
+    font-style: italic;
+    font-weight: 400;
+  }
+
+  .frogme {
+    margin-left: 170px;
+    padding: 1em;
+    overflow: hidden;
+  }

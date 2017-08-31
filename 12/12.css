@@ -1,0 +1,63 @@
+body {
+  background-color: linen;
+  background-image: url(i12/bgcolomn.jpg);
+  background-image:radial-gradient(50%);
+  background-repeat: repeat-y;
+  font-family: korona-one arial;
+  font-size: 25px;
+}
+.wide {
+  max-width: 40%;
+  margin-left: 30%;
+  margin-right: 30%;
+}
+
+.wide img {
+  align-self: center;
+  padding: 5px;
+  border-top-right-radius: 95px;
+  border-bottom-left-radius: 15px;
+  border-style: double;
+  border-width: 10px;
+  border-color: hotpink;
+  background-color: #f00000 ;
+}
+
+.colomn{
+  position: fixed;
+  max-width: 40%;
+  margin-left: 30%;
+  margin-right: 30%;
+  background-color: #f00000;
+
+  clear: both;
+}
+
+.logo {
+  float: left;
+  position: fixed;
+  margin-left: 1.15%;
+  border-style: double;
+  border-color: hotpink;
+  border-width: 10px;
+  border-radius: 35px;
+  clear: both;
+}
+
+h1 {
+font-family: fascinate arial;
+font-size: 42px;
+text-overflow: clip;
+text-align: center;
+}
+
+h2 {
+  font-family: fascinate arial;
+  text-overflow: clip;
+  text-align: center;
+}
+
+.para {
+  background-color: 0.5;
+  text-align: justify;
+}

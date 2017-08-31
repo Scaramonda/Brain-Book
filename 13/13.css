@@ -1,0 +1,37 @@
+body {
+  background-color: #b5efe3;
+  color: #050a84;
+}
+
+.logo img {
+  float: left;
+  position: fixed;
+  margin-top: 5%;
+  margin-left: 2%;
+  border-style: double;
+  border-color: hotpink;
+  border-width: 10px;
+  border-radius: 35px;
+  clear: both;
+}
+
+.intro1{
+  text-align: center;
+  background-color: #47d1d1;
+  margin-top: 10%;
+  margin-right: 18%;
+  margin-left: 28%;
+}
+
+.intro {
+  text-align: center;
+  background-color: #47d1d1;
+  margin-top: 2%;
+  margin-right: 18%;
+  margin-left: 28%;
+}
+
+.exmp {
+  text-align: center;
+  background-color: #47d1d1;
+}

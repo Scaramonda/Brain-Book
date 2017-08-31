@@ -1,0 +1,206 @@
+body {
+  background-image: url(/7eleven/i7/bluesqbg.jpg);
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+.logo h1 {
+  font-size: 55px;
+  font-family: serif;
+  color: white;
+  text-align: center;
+}
+
+.logo img {
+  padding: 55px;
+  margin-left: 60px;
+  border: solid white 10px;
+  align-items: center;
+}
+
+.navbar ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
+
+.navbar li {
+  display: inline;
+  font-family: serif;
+  font-size: 40px;
+  color: white;
+  padding: 45px;
+  width: 100%;
+  border: 15px;
+  margin-left: 125px;
+}
+
+.navbar {
+  align-self: center;
+}
+
+.gallery img {
+  width: 150px;
+  height: 150px;
+  padding: 10px;
+  align-self: center;
+}
+
+.gallery {
+  padding: 25px;
+}
+
+.blurb p {
+  float: right;
+  background-color: white;
+  font-size: 25px;
+  color: pale-blue;
+  padding: 25px;
+  margin-right: 50px;
+}
+.copyright {
+  background-color: white;
+  font-size: 20px;
+}
+
+a:hover {
+  background-color: white;
+}
+
+.background h1 {
+  font-size: 35px;
+  color: red;
+  background-color: white;
+  border: solid black 60px;
+}
+
+.background p {
+  background-color: white;
+  font-size: 30px;
+  margin: 60px;
+}
+
+.imagebox {
+  display: inline;
+
+}
+
+.imagebox img {
+  width: 200px
+  display: inline;
+}
+
+.logolk1 img {
+  background-color: red;
+  padding: 60px;
+}
+
+.logolk2 img {
+  background-color: red;
+  padding: 20px
+}
+
+.logo2 img {
+  background-color: red;
+  border: solid black 20px;
+}
+
+.logo3 img {
+  background-color: red;
+  margin: 20px;
+}
+
+.background2 {
+  background-color: white;
+  font-size: 25px
+}
+
+.background3 p {
+  background-color: pink;
+  font-size: 30px;
+  padding-left: 420px;
+  padding-right: 420px;
+  text-align-last: justify;
+}
+
+.background3 h3 {
+  background-color: 0;
+  color: white;
+  font-size: 50px;
+  padding-left: 25px;
+  margin-left: 520px;
+  margin-right: 520px;
+}
+
+
+.background3 img {
+  padding-left: 750px;
+  width: 100px;
+
+}
+.imagebox2 {
+  width: 100%;
+}
+.imagebox2 img{
+
+  background-color: blue;
+  padding: 5px;
+  border: solid white 5px;
+  margin: 35px;
+}
+.logolk3 {
+  display: inline;
+  position: fixed;
+}
+.log2 {
+  display: inline;
+  float: right;
+}
+.log3 {
+  display: inline;
+  float: right;
+}
+
+.imagebox3 img {
+  background-color: #27ab5d;
+  padding: 5px;
+  margin-left: 25px;
+}
+
+.logolk4 {
+  display: inline;
+  position: fixed;
+}
+.log5 {
+  display: inline;
+  float: right;
+  position: sticky;
+}
+.log6 {
+  display: inline;
+  float: right;
+  position: static;
+}
+
+.background4 p {
+  font-size: 25px;
+  background-color: #27ab5d;
+  padding: 10px;
+  margin-left: 400px;
+  margin-right: 800px;
+}
+.background4 img {
+  margin-left: 620px;
+}
+.fruit img {
+  background-color: #27ab5d;
+  padding: 5px;
+  margin-left: 1220px;
+  position: fixed;
+}
+.finger img {
+  background-color: #27ab5d;
+  padding: 5px;
+  margin-left: 1200px;
+}

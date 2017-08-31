@@ -1,0 +1,88 @@
+body.home {
+      background-image: url(i/5diskbg.jpg);
+      background-size: cover;
+}
+
+body.shop {
+background-image: url(i/redlegs.jpg);
+background-size: repeat;
+}
+
+body.gallery-page {
+  background-image: url(i/5logo.jpg);
+  background-size: repeat;
+}
+
+body.artist {
+  background-image: url(i/hellovaride.jpg);
+  background-size: cover;
+}
+
+body.livechat {
+  background-image: url(i/5yellowbg.jpg);
+  background-size: cover;
+}
+
+.header img {
+  width: 400px;
+  height: 500px;
+  margin-left: 75px;
+  margin-top: 75px;
+  margin-bottom: 75px;
+  border: solid red 7px;
+}
+
+.header h1 {
+  font-family: fantasy;
+  font-size: 80px;
+  color: #f5f61a;
+  padding: 25px;
+  background-color: black;
+  float: right;
+  margin-top: 185px;
+  margin-right: 210px;
+}
+.navbar {
+  margin: 35px;
+}
+
+.navbar ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
+
+.navbar li {
+  display: inline-block;
+  font-size: 45px;
+  padding: 10px;
+  border: solid red 7px;
+  margin-left: 75px;
+  background-color: #E9EA9C;
+}
+
+a:hover {
+  background-color: #46e714;
+}
+
+ .gallery img{
+  width: 250px;
+  height: 320px;
+  display: inline-block;
+  margin: 45px;
+  border: solid red 7px;
+}
+
+.gallery {
+  margin-left: 130px;
+}
+
+
+.text {
+  background-color: #E9EA9C;
+  font-family: fantasy;
+  font-size: 35px;
+  padding: 15px;
+  border: solid red 7px;
+  margin: 25px;
+}

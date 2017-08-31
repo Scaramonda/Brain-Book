@@ -1,0 +1,82 @@
+body {
+  background-image: url(i10/bgstripe.jpg);
+  background-size: cover;
+  margin: 0;
+  font-family: Yanone Kaffeesatz, arial;
+  font-size: 35px;
+  color: black;
+}
+.fimage {
+  max-width: 50px;
+  position: fixed;
+  margin: 10px
+}
+
+h1 {
+  background-color: #82bfff;
+  text-align: center;
+  font-size: 80px;
+}
+
+.blueband {
+  background-color: linen;
+}
+
+.greenband {
+  background-color: #43e8d8;
+}
+
+.band {
+  height: 55px;
+  margin: 0;
+  padding: 0;
+  border: 0;
+}
+
+.txt {
+  text-align: justify;
+  text-align: center;
+  background-color: linen;
+  padding: 10px;
+  margin-left: 25%;
+  margin-right: 25%;
+}
+
+.box {
+  padding: 35px;
+  margin-left: 25%;
+  margin-right: 25%;
+}
+
+.orangelines {
+  height: 6px;
+  border-top: 5px;
+  border-style: double;
+  border-color: orange;
+  border-width: thick;
+  background-color: #5bc0de;
+  margin-top: 40px;
+  padding: 10px;
+}
+.centre {
+  background-color: #ffffba;
+  align-content: center;
+  margin-left: 25%;
+  margin-right: 25%;
+}
+.frogslider img {
+  width: 180px;
+  margin: 10px;
+  align-content: center;
+}
+
+.frogtwo img {
+  width: 180px;
+  margin: 10px;
+  align-content: center;
+}
+
+.para3, .para4 {
+  text-align: center;
+  padding: 20px;
+}

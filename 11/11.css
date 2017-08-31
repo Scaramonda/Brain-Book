@@ -1,0 +1,122 @@
+
+
+body {
+background-color: linen;
+font-family: chelsea market, arial;
+font-size: 35px;
+margin: 0;
+
+}
+
+.box {
+  align-self: center;
+  margin-left: 20%;
+  margin-right: 20%;
+  text-align: center;
+}
+
+
+h1  {
+  font-family: nosifer, arial;
+  font-size: 45px;
+  color: #bd234d;
+}
+
+h3 {
+  padding: 0;
+  margin: 10px;
+  text-overflow: clip;
+
+}
+.logo img{
+  width: 10%;
+  float: left;
+  position: fixed;
+  margin: 50px;
+}
+
+.medic {
+  font-family: chelsea market, arial;
+  font-size: 35px;
+  color: black;
+
+  align-self: center;
+}
+.medicband {
+  background-color: white;
+  width: 100%;
+  border-top: 5px;
+  border-style: double;
+}
+
+
+.band {
+  height: 30px;
+  width: 100%;
+  border-style: double;
+}
+
+.greyband {
+  background-color: #9b9da2;
+  border-color: #bd234d;
+}
+
+.whiteband {
+  background-color: white;
+  border-color: black;
+}
+
+.blackband {
+  background-color: black;
+  height: 5px;
+  width: 100%;
+}
+
+.name, .ailment {
+padding: 30px;
+font-size: 30px;
+}
+
+.marg {
+  margin-top: 80px;
+  height:;
+}
+.bodypart {
+  background-color: linen;
+  font-size: 25px;
+  color: #bd234d;
+  display: inline-block;
+  text-align: justify;
+  float: left;
+  text-overflow: clip;
+  margin-left: 20%;
+  max-width: 50%;
+  clear: both;
+  margin-bottom: 45px;
+}
+
+.bodyprob {
+background-color: linen;
+font-size: 25px;
+color: black;
+display: inline-block;
+text-align: justify;
+float: right;
+text-overflow: clip;
+max-width: 50%;
+margin-bottom: 45px;
+
+}
+
+.para {
+  text-decoration: underline;
+  padding: 35px;
+
+}
+.klunj {
+  clear: both;
+  padding: 45px;
+  border-style: double;
+  color: #bd234d;
+  margin-bottom: 25px;
+}

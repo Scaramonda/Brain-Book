@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="utf-8">
+  <link rel="stylesheet" href="10practice.css" media="all">
+  <title>Forum of Forms</title>
+</head>
+
+<body>
+
+  <div class="blueband">
+  </div>
+
+  <div class="title">
+    <h1>Forum of Forms</h1>
+  </div>
+
+
+  <div class="aform box">
+    <form action="/action10.php">
+      First name:<br>
+      <input type="text" name="firstname" value="Monda">
+      <br> Last name:<br>
+      <input type="text" name="lastname" value="Mouse">
+      <br><br>
+      <input type="submit" value="Submit">
+    </form>
+
+    <p>If you click the "Submit" button, the form-data will be sent to a page called "/action10.php".</p>
+  </div>
+
+  <div class="bform box">
+    <form>
+      First name:<br>
+      <input type="text" name="firstname"><br> Last name:<br>
+      <input type="text" name="lastname">
+    </form>
+    <p>Note that the form itself is not visible. Also note that the default width of a text input field is 20 characters.</p>
+  </div>
+
+  <div class="orangelines">
+  </div>
+
+  <div class="cform box">
+    <form>
+      <input type="radio" name="gender" value="male" checked> Male<br>
+      <input type="radio" name="gender" value="female"> Female<br>
+      <input type="radio" name="gender" value="other"> Other
+    </form>
+  </div>
+
+  <div class="dform box">
+    <select name="bras">
+  <option value="triumph">Triumph</option>
+  <option value="victorias">Victorias</option>
+  <option value="gossard">Gossard</option>
+  <option value="agent">Agent Provocateur</option>
+</select>
+    <p>This is the select element.</p>
+  </div>
+
+  <div class="orangelines">
+  </div>
+
+  <div class="eform box">
+    <h2>Send e-mail to amanda.britton@hotmail.co.uk:</h2>
+
+    <form action="mailto:amanda.britton@hotmail.co.uk" method="post" enctype="text/plain">
+      Name:<br>
+      <input type="text" name="name"><br> E-mail:
+      <br>
+      <input type="text" name="mail"><br> Comment:
+      <br>
+      <input type="text" name="comment" size="50"><br><br>
+      <input type="submit" value="Send">
+      <input type="reset" value="Reset">
+    </form>
+  </div>
+
+  <div class="fform box">
+    <p>Fill in the rest of this paragraph for humorous intent.</p>
+    <form action="/action_page.php">
+      <textarea name="message" rows="10" cols="30">The Kode Klunj Club was in session.  Their Sea Monkeys had grown to big for their tanks.</textarea>
+      <br>
+      <input type="submit">
+    </form>
+  </div>
+
+  <div class="gborder">
+    <div class="gform box">
+      <button type="button" onclick="alert('KODE KLUNJ KLUB!')">Klunj Me!</button>
+    </div>
+  </div>
+
+  <div class="hform box">
+    <form action="/action10.php">
+      <input type="checkbox" name="vehicle1" value="Bike">I have a bike
+      <br>
+      <input type="checkbox" name="vehicle2"
+      value="RollerBoots">I have roller boots
+      <br>
+      <input type="checkbox" name="vehicle3" value="Car">I have a car
+      <br><br>
+      <input type="submit">
+    </form>
+    <p>This is an example of checkboxes: where zero or multiple boxes can be selected.</p>
+  </div>
+
+  <div class="iform box">
+    x<form action="/action10.php">
+  First name: <input type="text" name="fname"><br>
+  Last name: <input type="text" name="lname"><br>
+  <input type="image" src="i10/frogi.jpg" alt="Submit" width="48" height="48">
+</form>
+
+<p><b>Note:</b> The input type="image" sends the X and Y coordinates of the click that activated the image button.</p>
+
+  </div>
+
+
+</body>
+
+</html>

@@ -1,0 +1,185 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="utf-8">
+  <link rel="stylesheet" href="10.css" media="all">
+  <title>Forum on Forms</title>
+</head>
+
+<body>
+
+  <div class="bluband band">
+  </div>
+
+  <div class="fimage">
+    <img src="i10/mfrog.jpg" alt="Frog">
+  </div>
+
+  <div class="header">
+    <h1>Forum on Forms</h1>
+    <div class="greenband band">
+    </div>
+  </div>
+
+  <div class="para1 txt">
+    <p>This is a questionaire on the suitability of your application to join Kode Klunj. It probes deeply and personally and will ultimately decide if you are indeed club house fodder. </p>
+  </div>
+
+  <div class="centre">
+    <div class="name box">
+      <form>
+        First name:<br>
+        <input type="text" name="firstname">
+        <br> Last name:<br>
+        <input type="text" name="lastname">
+        <br> Pseudonym:<br>
+        <input type="text" name="Pseudonym">
+      </form>
+    </div>
+  </div>
+
+  <div class="orangelines">
+  </div>
+
+  <div class="centre">
+    <div class="gender box">
+      <form>
+        <input type="radio" name="gender" value="male" checked> Male<br>
+        <input type="radio" name="gender" value="female"> Female<br>
+        <input type="radio" name="gender" value="other"> Other
+      </form>
+    </div>
+  </div>
+
+  <div class="orangelines">
+  </div>
+
+  <div class="para2 txt">
+    <p>That should have been an easy opener for you. Now onto your modes of transportation.</p>
+  </div>
+
+  <div class="orangelines">
+  </div>
+
+  <div class="centre">
+    <div class="transport box">
+      <form action="/action10.php">
+        <input type="checkbox" name="vehicle1" value="Bike">I have a motorbike
+        <br>
+        <input type="checkbox" name="vehicle2" value="RollerBoots">I have roller boots
+        <br>
+        <input type="checkbox" name="vehicle3" value="Car">I have a car
+        <br>
+        <input type="checkbox" name="vehicle4" value="Drone">I have a drone
+        <br>
+        <input type="checkbox" name="vehicle5" value="Psychedelia">I have psychedelic drugs
+        <br><br>
+        <input type="submit">
+      </form>
+    </div>
+  </div>
+
+  <div class="orangelines">
+  </div>
+
+    <div class="para3 txt">
+      <p>Please rate this frog on its aesthetic merit. Your range is in between 1-1000 in droplets of joy.</p>
+    </div>
+
+<div class="centre">
+    <div class="frogslider box centre">
+      <img src="i10/frogd.jpg" alt="pink frog">
+      <form action="/action10.php">
+        Quantity:
+        <input type="number" name="quantity" min="0" max="1000" step="10" value="30">
+        <input type="submit">
+      </form>
+      </form>
+    </div>
+  </div>
+
+  <div class="centre">
+    <div class="klunj">
+      <button type="button" onclick="alert('I said dont fucking touch!!')">Dont Touch Me!</button>
+    </div>
+  </div>
+
+  <div class="orangelines">
+  </div>
+
+
+    <div class="para3 txt">
+      <p>Now rate this one. Hes at least worth 50 just add the rest.</p>
+    </div>
+
+    <div class="centre">
+    <div class="frogtwo box">
+      <img src="i10/frogc.jpg" alt="another frog">
+      <form action="/action10.php" oninput="x.value=parseInt(a.value)+parseInt(b.value)">
+        0
+        <input type="range" id="a" name="a" value="50"> 100 +
+        <input type="number" id="b" name="b" value="50"> =
+        <output name="x" for="a b"></output>
+        <br><br>
+        <input type="submit">
+      </form>
+      </div>
+      </div>
+
+      <div class="orangelines">
+      </div>
+
+
+      <div class="para4 txt">
+        <p>Complete the following story about Kode Klunj.</p>
+      </div>
+
+
+        <div class="centre">
+      <div class="opencomment box">
+        <form action="/action10.php">
+          <textarea name="message" rows="15" cols="45">It was Thursday night and Kode Klunj was in full flow.  Glasses were filled with ice, tanks were filled with monkeys and heads were filled with code when suddenly...</textarea>
+          <br>
+          <input type="submit">
+        </form>
+      </div>
+    </div>
+
+     <div class="centre">
+      <div class="klunj">
+        <button type="button" onclick="alert('Completely Incorrect - What goes on in Klunj Klub stays in Klunj Klub.  Never tell stories of the Klunj.')">Click when you have finished your story.</button>
+      </div>
+      </div>
+
+    <div class="orangelines">
+    </div>
+
+    <div class="para3 txt">
+      <p>Now complete a full 12 sides of A4 in teeny tiny writing on the subject of your admission into "The Klub", get it scanned and over to my email pronto, making sure you have enlarged it first or only Mr Armstrong will be reading it. Please include
+      a full set of finger prints and an ass shot taken on a dodgy old photocopier.</p>
+    </div>
+
+    <div class="centre">
+    <div class="email box">
+      <h2>Send e-mail to monda.britton@gmail.com:</h2>
+      <form action="mailto:monda.britton@gmail.com" method="post" enctype="text/plain">
+        Name:<br>
+        <input type="text" name="name"><br> E-mail:
+        <br>
+        <input type="text" name="mail"><br> Comment:
+        <br>
+        <input type="text" name="comment" size="50"><br><br>
+        <input type="submit" value="Send">
+        <input type="reset" value="Reset">
+      </form>
+    </div>
+      </div>
+
+    <div class="orangelines">
+    </div>
+
+
+</body>
+
+</html>

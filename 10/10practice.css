@@ -1,0 +1,52 @@
+body {
+  background-color: #6cecd8;
+  font-family: raleway helvetica;
+  font-size: 28px;
+  color: black;
+  margin: 0;
+}
+
+.blueband {
+  height: 45px;
+  padding: 0;
+  border: 0;
+  margin: 0;
+  background-color: #a8cc7f;
+}
+
+h1 {
+  font-family: Yanone Kaffeesatz;
+  background-color: #c4deff;
+  text-align: center;
+  color: #317873;
+}
+
+.orangelines {
+  height: 6px;
+  border-top: 1px;
+  border-style: double;
+  border-color: orange;
+  border-width: medium;
+  background-color: #5bc0de;
+}
+
+.title {
+  padding: 0;
+  border: 0;
+  margin: 0;
+}
+
+.box {
+  padding: 55px;
+}
+
+.gform {
+  padding: 15px;
+  border: solid 2px orange;
+  border-style: double;
+}
+
+.gborder {
+  max-width: 10%;
+  padding: 55px;
+}

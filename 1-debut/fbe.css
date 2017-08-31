@@ -1,0 +1,68 @@
+body {
+  background-image: url(i/wetlatex.jpg);
+  background-repeat: repeat;
+  margin: auto;
+}
+
+.header img {
+  max-width: 30%;
+  padding: 35px;
+  margin: 25px;
+  border: solid lightblue;
+}
+
+.delicious {
+  padding: 0;
+  border: 0;
+  float: right;
+}
+
+.header h1 {
+  font-family: goudy-old-style;
+  font-size: 60px;
+  color: #620C0D;
+  float: inherit;
+  background-color: black;
+  width: 800px;
+  border: 5px solid lightblue;
+  padding: 25px;
+  margin-top: 200px;
+}
+
+.navbar ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
+
+.navbar li {
+  display: inline;
+  font-family: serif;
+  font-size: 30px;
+  padding: 15px;
+  width: 100%;
+}
+
+.navbar {
+  padding: 10px;
+  margin-right: 75px;
+  margin-left: 75px;
+  border: 25px;
+  background-color: lightblue;
+}
+
+.gallery img {
+  padding: 40px;
+  border: 30px;
+  align-content: center;
+}
+
+p {
+  font-size: 25px;
+  font-family: serif;
+  background-color: lightblue;
+  color: black;
+  padding: 20px;
+  border: 15px;
+  margin: 25px;
+}

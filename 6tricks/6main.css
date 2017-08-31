@@ -1,0 +1,136 @@
+    body {
+      background-image: url(/6tricks/i6/bodystripe.jpg);
+      background-attachment: fixed;
+      background-position: right;
+      background-repeat: no-repeat;
+      margin: solid white 125px;
+    }
+
+    .header img {
+      width: 350px;
+      height: 450px;
+      border: solid white 5px;
+      margin-left: 30px;
+    }
+
+    h1 {
+      margin-left: 55px;
+    }
+
+    .thegallery img {
+      border: solid white 10px;
+      border-color: white;
+      margin: 50px;
+    }
+
+    .navbar ul {
+      list-style-type: none;
+      margin: 0;
+      padding: 0;
+      font-size: 45px;
+    }
+
+    .navbar {
+      margin-left: 65px;
+    }
+
+    li {
+      font-size: 45px;
+      padding: 25px;
+      margin: 30px;
+    }
+
+    a:hover {
+      background-color: #46e714;
+    }
+
+    a:hover {
+      background-color: ;
+    }
+    /* unvisited link */
+
+    a:link {
+      color: red;
+    }
+    /* visited link */
+
+    a:visited {
+      color: green;
+    }
+    /* mouse over link */
+
+    a:hover {
+      color: hotpink;
+    }
+    /* selected link */
+
+    a:active {
+      color: blue;
+    }
+
+    .frame {
+      width: 500px;
+      height: 500px;
+      position: absolute;
+      top: 600px;
+      right: 660px;
+      margin: 10px;
+      padding: 10px;
+      color: hotpink;
+      border: 50px;
+      color: hotpink;
+    }
+
+    .frame img {
+      width: 350px;
+      height: auto;
+      margin: 10px;
+      padding: 10px;
+      color: hotpink;
+      border: 50px;
+      color: hotpink;
+      background-color: hotpink;
+    }
+
+    .homepic img {
+      border: solid white 10px;
+      border-color: white;
+      padding: 50px;
+      margin: 50px;
+    }
+
+    .shoppic img {
+      border: solid white 10px;
+      border-color: white;
+      margin: 50px;
+    }
+
+    .artistpic img {
+      border: solid white 10px;
+      border-color: white;
+      padding: 50px;
+      margin-left: 200px;
+    }
+
+    .chatpic img {
+      border: solid white 10px;
+      border-color: white;
+      padding: 50px;
+      margin: 30px;
+    }
+
+    .text {
+      font-size: 35px;
+      background-color: grey;
+      padding: 25px;
+      margin: 30px;
+    }
+
+    .copyright {
+      font-size: 15px;
+      padding: 25px;
+      background-color: lightblue;
+      margin-right: 1390px;
+      margin-left: 30px;
+      margin-bottom: 25px;
+    }
